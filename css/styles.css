@@ -1,4 +1,91 @@
+/* This is a comment*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.5rem;
+}
+
+body {
+  background-color: mistyrose;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url("/img/gradient\ 1.jpg");
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+/* this is an id, best to use classes whenever possible rather than ids*/
+#the-one {
+  color: lightyellow;
+}
+
+.new-color {
+  color: lightyellow;
+  background-color: lightskyblue;
+}
+
 h1 {
-  color: red;
+  color: lightyellow;
+  background-color: mistyrose;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-left: 0.5rem;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  /*letter-spacing: normal;*/
+  word-spacing: normal;
+}
+/* Makes images responsive*/
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  background-color: mistyrose;
+}
+
+a:visited {
+  color: mediumslateblue;
+}
+
+a:hover {
+  color: darkgrey;
   background-color: lightyellow;
+  text-decoration: underline;
+}
+
+a:active {
+  color: aquamarine;
+}
+
+.box {
+  background-color: lightpink;
+  width: 300px;
+  padding: 10px 20px 30px 20px;
+  border-top: 20px solid lightgrey;
+  border-left: 10px solid lightgray;
+  border-bottom: 20px solid lightgray;
+  border-right: 10px solid lightgray;
+  margin: 30px;
+}
+.standard-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  background-color: lightpink;
 }
