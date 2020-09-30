@@ -16,7 +16,7 @@ body {
   background-color: mistyrose;
   max-width: 1000px;
   margin: 0 auto;
-  background-image: url("..img/gradient\ 1.jpg");
+  background-image: url("../img/gradient\ 1.jpg");
   background-position: center;
   background-repeat: repeat-y;
 }
